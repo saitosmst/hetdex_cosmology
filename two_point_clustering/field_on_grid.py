@@ -62,13 +62,16 @@ class Field_on_grid(object):
                 number of grid along each axis.
 
     ix_c, iy_c, iz_c: numpy mgrid[nx, ny, nz]
-                      index of grid in configuration space
+                      index of grid in configuration space.
 
     c_grid: numpy mgrid[nx, ny, nz]
-    index of grid in configuration space
+            length of each grid from the origin in configuration space.
 
     ix_k, iy_k, iz_k: numpy mgrid[nx, ny, nz]
-                      index of grid in Fourier space
+                      index of grid in Fourier space.
+
+    k_grid: numpy mgrid[nx, ny, nz]
+            length of each grid from the origin in Fourier space.
 
     Methods
     ----------------
