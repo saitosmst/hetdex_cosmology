@@ -132,6 +132,7 @@ class Field_on_grid(object):
         self.ix_k, self.iy_k, self.iz_k = np.mgrid[0:self.nx,
                                                    0:self.ny,
                                                    0:self.nz]
+
         # FFT d.o.f. due to periodicity
         _xn2 = self.nx // 2
         _yn2 = self.ny // 2
