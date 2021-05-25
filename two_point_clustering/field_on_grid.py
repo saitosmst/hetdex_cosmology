@@ -14,7 +14,7 @@ EPS = 1.E-20
 
 class Field_on_grid(object):
     r"""
-    A class to handle a field on a 3-dimensional grid.
+    A class to handle a field on a 3-dimensional grid for a Fast-Fourier-Transformation (FFT) calculation.
 
     FFT convention relies on scipy.fftpack.fftn
     For the convention, see:
